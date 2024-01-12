@@ -25,7 +25,7 @@ export class CardComponent implements OnInit {
         id: workplan.id,
         title: workplan.name,
         state: index === 0 ? 'Going' : 'Incomplete',
-        imageUrl: '../../../../assets/alexandre-debieve-FO7JIlwjOtU-unsplash.jpg'
+        imageUrl: 'https://www.ccny.cuny.edu/sites/default/files/styles/600px_wide/public/2020-03/alexandre-debieve-fo7jilwjotu-unsplash.jpg?itok=RpCfL5s8'
       };
     });
   }
